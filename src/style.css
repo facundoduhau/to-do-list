@@ -5,29 +5,82 @@ body {
 }
 
 .header{
-  background-color: black;
+  background-color: rgb(41, 40, 40);
   color: beige;
   height: 12vh;
   display: flex;
   align-items: center;
   font-size: 3rem;
-  padding-left: 2rem;
+  width: 100vw;
+  border-bottom: black solid 1px;
+}
+
+.user{
+  display: flex;
+  width: 20vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon{
+  width: 4rem;
+  border-radius: 100%;
+}
+
+.user-box{
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.username{
+  font-size: 1.2rem;
+}
+
+.current-workspace{
+  font-size: 0.8rem;
+}
+
+.tools{
+  display: flex;
+  background-color: rgb(58, 57, 57);
+  width: 100%;
+  height: 100%;
+  justify-content: right;
+  align-items: center;
+  border-left: black solid 1px;
+}
+
+.add-task, .add-project{
+  all: unset;
+  background-color: rgb(39, 39, 39);
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin-right: 2rem;
+}
+
+.add-task:hover, .add-project:hover{
+  cursor: pointer;
+  background-color: rgb(248, 232, 232);
+  color: black;
 }
 
 .main{
   height: 88vh;
   display: flex;
   flex-direction: row;
-  background-color: yellow;
 }
 
 .left-panel{
-  background-color: red;
+  background-color: rgb(119, 119, 119);
   height: 100%;
   width: 20vw;
+  border-right: black solid 1px;
 }
 
 .main-panel{
-  background-color: blue;
+  background-color: rgb(248, 232, 232);
   width: 100%;
 }
